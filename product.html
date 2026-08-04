@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWAG | Product</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+
+    <div class="logo">
+        SWAG
+    </div>
+
+    <div class="header-icons">
+
+        <a href="index.html">Home</a>
+
+        <a href="cart.html" class="cart-icon">
+            🛒
+        </a>
+
+    </div>
+
+</header>
+
+<section class="product-page">
+
+    <div class="product-image">
+
+        <img id="productImage" src="" alt="Product">
+
+    </div>
+
+    <div class="product-info">
+
+        <h2 id="productName"></h2>
+
+        <h3 id="productPrice"></h3>
+
+        <p id="productDescription"></p>
+
+        <br>
+
+        <label>Size</label>
+
+        <select id="sizeSelect">
+
+            <option>M</option>
+            <option>L</option>
+            <option>XL</option>
+
+        </select>
+
+        <br><br>
+
+        <label>Color</label>
+
+        <select id="colorSelect">
+
+            <option>Black</option>
+            <option>Red</option>
+            <option>White</option>
+
+        </select>
+
+        <br><br>
+
+        <button id="addToCart" class="view-btn">
+            Add To Cart
+        </button>
+
+    </div>
+
+</section>
+
+<script src="products.js"></script>
+<script src="product.js"></script>
+
+</body>
+</html>
